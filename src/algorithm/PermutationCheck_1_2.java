@@ -6,7 +6,7 @@ public class PermutationCheck_1_2 {
 	//순열 확인 문제
 	//두 문자열이 순열 관계에 있는가?(=문자열의 구성요소가 순서 상관없이 같은가?)
 	//대소문자 구별 안됌, 공백도 하나의 문자로 취급
-	//문자 출현 횟수로 구별하는 방법도 있지만 귀찮아서 다른 문제에서 구현하기로,,,,,,,
+	//문자 출현 횟수로 구별하는 방법도 있다. 다른 문제에서 구현하기로,,
 	public static boolean IsPermutation(String a,String b) {
 		//두 문자열의 길이가 다르다면 당연히 순열관계가 아니므로 false
 		if(a.length()!=b.length())return false;
