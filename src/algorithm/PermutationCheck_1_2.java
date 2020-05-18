@@ -15,12 +15,10 @@ public class PermutationCheck_1_2 {
 		String r2=String.join("", two);
 		if(r1==r2)return true;
 		return true;
-		
 	}
 	public static void main(String args[]) {
 		System.out.println("abcd,dcba는 순열 관계인가? :"+IsPermutation("abcd","dcba"));
 		System.out.println("apple,banana는 순열 관계인가? :"+IsPermutation("apple","banana"));
 		System.out.println("canada,aaacnd는 순열 관계인가? :"+IsPermutation("canada","aaacnd"));
 	}
-
 }
