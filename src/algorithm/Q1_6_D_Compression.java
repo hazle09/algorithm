@@ -14,7 +14,11 @@ public class Q1_6_D_Compression {
 		}return result.toString();
 	}
 	public static void main(String args[]) {
-		System.out.println(compress("aaabbbccaa"));
+		String str="aaabbbbba";
+		String compressed=compress(str);
+		if(str.length()>compressed.length()) {
+			System.out.println(compressed);
+		}else System.out.println(str);
 	}
 
 }
