@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.Arrays;
 
-public class PermutationCheck_1_2 {
+public class Q1_2_PermutationCheck {
 	//순열 확인 문제
 	//두 문자열이 순열 관계에 있는가?(=문자열의 구성요소가 순서 상관없이 같은가?)
 	//대소문자 구별 안됌, 공백도 하나의 문자로 취급

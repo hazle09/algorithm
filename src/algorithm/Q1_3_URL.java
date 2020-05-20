@@ -1,6 +1,6 @@
 package algorithm;
 
-public class URL_1_3 {
+public class Q1_3_URL {
 	
 	public static void findSpace(char[] arr,int length) {
 		int count=0,index;int i=0;
