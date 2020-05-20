@@ -2,7 +2,7 @@ package algorithm;
 //1.1중복이 없는가?
 //대소문자 따로 인식
 //비트벡터로 구현하는 방법이 훨씬 코드가 짧고 간결함(아직 안함 ㅎ;)
-public class Q1_2_UniqueChar {
+public class Q1_1_UniqueChar {
 	
 	public static boolean uniqueChar(String str) {
 		//아스키코드의 문자 128개만큼의 크기를 가진 배열 생성
