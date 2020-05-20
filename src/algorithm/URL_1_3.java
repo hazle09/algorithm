@@ -34,7 +34,8 @@ public class URL_1_3 {
 	public static void main(String args[]) {
 		//"Hello World"는 안되고 "Hello World   "는 되는 이유를 모르겠다. 문자변환시 필요한 자릿수만큼 공백이 필요한데 그 이유가 뭐지???
 		//필요한건 알겠는데 문제상에서 주어지는 입력에는 공백이 없음!! 문제 오류인지? 그렇다면 입력에서 공백없이 받으려면 어째야하는가??
-		//그리고 findLastCharacter메소드는 교재답지에는 안써있는데 왜 필요한거임?
+		//그리고 findLastCharacter메소드는 교재답지에는 안써있는데 왜 이걸 안쓰고 그냥 length()하면 에러가 날까??
+		//애초에 이 문제에서 replace쓰면 안되는 이유를 모르겠어 ..ㅋㅋ
 		String str="Hello World  ";
 		char[] arr=str.toCharArray();
 		int length=findLastCharacter(arr)+1;
